@@ -1,0 +1,318 @@
+/*HEADER INICIO*/
+.header {
+    height: 80px;
+    --amarelo-logo: #717a78;
+    background-color: #212121;
+}
+
+.logo-header {
+    height: 80px;
+    cursor: pointer;
+}
+
+.botao-menu:link {
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.botao-menu:visited {
+    color: rgb(255, 255, 255);
+}
+
+.botao-menu:active {
+    color: rgb(255, 0, 0);
+}
+
+.botao-menu:hover {
+    color: rgb(255, 0, 0);
+    border-right-color: red;
+}
+
+.menu-border {
+    border-right-style: solid;
+    border-right-width: medium;
+    padding-right: 0.6rem;
+}
+
+/*HEADER FINAL*/
+
+
+/*LANÇAMENTOS */
+
+.grupogames {
+    margin-top: 50px;
+}
+
+.grupogames h3 {
+    margin-left: 450px;
+}
+
+.gamescard {
+    padding: 10px;
+}
+
+.gamesinformaçao {
+    background-color: rgb(153, 153, 153);
+    border: none;
+    border-radius: 10px;
+    padding: 0;
+    margin: 7;
+    position: relative;
+}
+
+.gamesinformaçao:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.gamesimagem img {
+    border-radius: 10px 10px 0px 0px;
+    height: 200px;
+    width: 100%;
+}
+
+.gamesinformaçaotitulo h5 {
+    margin-left: 80px;
+    color: black;
+    margin-bottom: 0;
+}
+
+.gamesinformaçaotexttitulo p {
+    margin-bottom: 0;
+}
+
+.gamesinformaçao {
+    padding: 25px;
+}
+
+.gamesinformaçaotext    {
+    display: flex;
+    margin: 10px 0;
+}
+
+.gamesinformaçaotexttitulo 
+    p {
+    margin-bottom: 16px;
+}
+
+.gamesinformaçaotexttitulo {
+    
+    margin-left: 4px;
+    color: black;
+    font-weight: 500;
+}
+
+.gamesinformaçaotextadicionais {
+    color: white;
+    font-weight: 200;
+    margin-left: 15px;
+}
+
+.gamesinformaçaotextdetalhes button {
+    background-color: rgb(184, 51, 51);
+    border: none;
+    border-radius: 4px;
+    color: black;
+    padding: 5px 15px;
+    margin-left: 100px;
+}
+
+/*LANÇAMENTOS FIM*/
+
+
+/*LOJAS INICIO*/
+
+.grupolojas {
+    margin-top: 50px;
+}
+
+.grupolojas h3 {
+    margin-left: 500px;
+}
+
+.lojascard {
+    margin-left: 65px;
+    padding: 10px;
+}
+
+.lojas {
+    background-color: rgb(153, 153, 153);
+    border: none;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+}
+
+.lojasimagem {
+    padding: 20px;
+}
+
+.lojasimagem img {
+    border-radius: 9px;
+    height: 150px;
+    width: 150px;
+}
+
+.lojasnome {
+    color: rgb(0, 0, 0);
+    padding-bottom: 10px;
+}
+
+.lojaslink {
+    background-color: rgb(153, 153, 153);
+    right: 15px;
+    top: 15px;
+}
+
+.lojaslink button {
+    background-color: rgb(184, 51, 51);
+    border: none;
+    border-radius: 4px;
+    color: black;
+    padding: 5px 15px;
+    margin-left: 8px;
+}
+
+/*LOJAS FIM*/
+
+
+/*FOOTER*/
+
+#myFooter {
+    flex-direction: row;
+    background-color: #000000;
+    color: white;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+}
+
+#myFooter .social-icons {
+    background-color: rgb(0, 0, 0);
+    flex-direction: row;
+}
+
+#myFooter .info {
+    text-align: justify;
+    color: #afb0b1;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    text-align: left;
+    font-size: 18px;
+    color: white;
+    margin-top: 30px;
+}
+
+#myFooter p {
+    text-align: left;
+    flex-direction: row;
+}
+
+#myFooter .logo {
+    margin-top: 10px;
+}
+
+#myFooter .second-bar .logo a {
+    color: white;
+    font-size: 28px;
+    float: left;
+    font-weight: bold;
+    line-height: 68px;
+    margin: 0;
+    padding: 0;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter .inicio {
+    margin-left: 15%;
+    background-color: rgb(0, 0, 0);
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .second-bar {
+    text-align: center;
+    background-color: #000000;
+    text-align: center;
+}
+
+#myFooter .second-bar a {
+    font-size: 22px;
+    color: #9fa3a9;
+    padding: 10px;
+    transition: 0.2s;
+    line-height: 68px;
+}
+
+#myFooter .second-bar a:hover {
+    text-decoration: none;
+}
+
+#myFooter .social-icons {
+    float: right;
+}
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .instagram:hover {
+    color: purple;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+/*FOOTER FIM*/
+
+
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+
+    #myFooter .info {
+        text-align: center;
+    }
+}
+
+#myFooter {
+    flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+}
+
+@media (min-width: 320px) and (max-width: 800px) {
+    #myFooter {
+        margin-top: 1000px;
+        text-align: start;
+    }
+
+    #myFooter .info {
+        text-align: start;
+    }
+
+    #myFooter {
+        flex: 0 0 auto;
+        -webkit-flex: 0 0 auto;
+    }
+}

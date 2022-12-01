@@ -1,0 +1,297 @@
+/*HEADER INICIO*/
+.header {
+    height: 80px;
+    --amarelo-logo: #717a78;
+    background-color: #212121;
+}
+
+.logo-header {
+    height: 80px;
+    cursor: pointer;
+}
+.pesquisa input {
+    background-image: url(imgs/search.png);
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    background-position-x: 9px;
+    background-position-y: 9px;
+    background-color: white;
+    border-color: white;
+    border-radius: 10px;
+    color: black;
+    height: 25px;
+    margin-left: 590px;
+    margin-bottom: 90px;
+    padding-left: 70px;
+    width: 300px;
+}
+
+.pesquisa input:focus {
+    background-color: white;
+    border-color: white;
+    box-shadow: none;
+    outline-color: white;
+    outline-style: solid;
+    outline-width: medium;
+    color: white;
+}
+
+.botao-menu:link {
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.botao-menu:visited {
+    color: rgb(255, 255, 255);
+}
+
+.botao-menu:active {
+    color: rgb(255, 0, 0);
+}
+
+.botao-menu:hover {
+    color: rgb(255, 0, 0);
+    border-right-color: red;
+}
+
+.menu-border {
+    border-right-style: solid;
+    border-right-width: medium;
+    padding-right: 0.6rem;
+}
+
+/*HEADER FINAL*/
+
+/*PESQUISA */
+
+
+.pesquisa {
+    min-height: 90vh;
+}
+
+.pesquisatitulo {
+    border-bottom: 1px black;
+    margin-left: 340px;
+    margin-top: 20px;
+}
+
+.pesquisatitulo h4 {
+    color: white;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.resultado {
+    padding: 10px;
+}
+
+.resultado {
+    background-color: rgb(168, 168, 168);
+    border-radius: 10px;
+    margin: 20px 0 10px 0;
+    position: relative;
+}
+
+.resultado:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.imagem {
+    margin: 0;
+}
+
+.imagem img {
+    border-radius: 4px;
+    height: 230px;
+    width: 95%;
+}
+
+.descricao {
+    padding: 20px;
+}
+
+.descricao h5 {
+    margin-left: 40px;
+    color: black;
+    padding-left: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.infos {
+    display: flex;
+    margin-top: 20px;
+}
+
+.infostitulos p {
+    color: black;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-left: 40px;
+}
+
+.dados {
+    color:black;
+    margin-left: 5px;
+}
+
+.dados p {
+    font-weight: 200;
+    margin-bottom: 5px;
+}
+
+
+
+.link button {
+    background-color:rgb(83, 37, 37);
+    border: none;
+    border-radius: 10px;
+    margin-left: 69px;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.link button:hover {
+    background-color: #b82032;
+}
+
+/*FOOTER*/
+
+#myFooter {
+    flex-direction: row;
+    background-color: #000000;
+    color: white;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+}
+
+#myFooter .social-icons {
+    background-color: rgb(0, 0, 0);
+    flex-direction: row;
+}
+
+#myFooter .info {
+    text-align: justify;
+    color: #afb0b1;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    text-align: left;
+    font-size: 18px;
+    color: white;
+    margin-top: 30px;
+}
+
+#myFooter p {
+    text-align: left;
+    flex-direction: row;
+}
+
+#myFooter .logo {
+    margin-top: 10px;
+}
+
+#myFooter .second-bar .logo a {
+    color: white;
+    font-size: 28px;
+    float: left;
+    font-weight: bold;
+    line-height: 68px;
+    margin: 0;
+    padding: 0;
+}
+
+#myFooter a {
+    color: #d2d1d1;
+    text-decoration: none;
+}
+
+#myFooter .inicio {
+    margin-left: 15%;
+    background-color: rgb(0, 0, 0);
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .second-bar {
+    text-align: center;
+    background-color: #000000;
+    text-align: center;
+}
+
+#myFooter .second-bar a {
+    font-size: 22px;
+    color: #9fa3a9;
+    padding: 10px;
+    transition: 0.2s;
+    line-height: 68px;
+}
+
+#myFooter .second-bar a:hover {
+    text-decoration: none;
+}
+
+#myFooter .social-icons {
+    float: right;
+}
+
+#myFooter .facebook:hover {
+    color: #0077e2;
+}
+
+#myFooter .instagram:hover {
+    color: purple;
+}
+
+#myFooter .twitter:hover {
+    color: #00aced;
+}
+
+/*FOOTER FIM*/
+
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+
+    #myFooter .info {
+        text-align: center;
+    }
+}
+
+#myFooter {
+    flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+}
+
+@media (min-width: 320px) and (max-width: 800px) {
+    #myFooter {
+        margin-top: 1000px;
+        text-align: start;
+    }
+
+    #myFooter .info {
+        text-align: start;
+    }
+
+    #myFooter {
+        flex: 0 0 auto;
+        -webkit-flex: 0 0 auto;
+    }
+}
